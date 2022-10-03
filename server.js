@@ -29,10 +29,6 @@ app.use(bodyParser.urlencoded({ extended: true }))
     console.log('Connected to Database')
   })*/
 
-  /*MongoClient.connect(connectionString, (err, client) => {
-   
-  })*/
-
 app.listen(3000, function() {
     console.log('listening on 3000')
   })
@@ -41,5 +37,5 @@ app.listen(3000, function() {
     res.sendFile('E:/Submission/quotes/New folder/addQuotes' + '/index.html')
   })
   app.post('/quotes', (req, res) => {
-    console.log('Hellooooooooooooooooo!')
+    console.log('Hello!')
   })
